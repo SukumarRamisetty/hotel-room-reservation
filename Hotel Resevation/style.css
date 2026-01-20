@@ -1,0 +1,83 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+/* Controls */
+.controls {
+  margin-bottom: 20px;
+}
+
+.controls input {
+  padding: 6px;
+  width: 120px;
+}
+
+.controls button {
+  padding: 6px 10px;
+  margin-left: 5px;
+  cursor: pointer;
+}
+
+/* Building Layout */
+.building {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 15px;
+}
+
+/* Staircase / Lift */
+.stairs {
+  display: flex;
+}
+
+.stairs-box {
+  width: 70px;
+  background-color: #dcdcdc;
+  border: 2px solid #555;
+  font-weight: bold;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  writing-mode: vertical-rl;
+}
+
+/* Hotel */
+#hotel {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+/* Floors */
+.floor {
+  display: grid;
+  grid-template-columns: repeat(10, 35px);
+  gap: 5px;
+  justify-content: center;
+}
+
+.floor10 {
+  grid-template-columns: repeat(7, 35px);
+}
+
+/* Rooms */
+.room {
+  width: 35px;
+  height: 35px;
+  border: 1px solid black;
+  font-size: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.free {
+  background-color: #b6fcb6;
+}
+
+.booked {
+  background-color: #ff8c8c;
+}
